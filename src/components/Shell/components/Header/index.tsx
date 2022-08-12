@@ -35,12 +35,12 @@ const navigation: NavigationProps[] = [
   {
     id: 5,
     href: '#',
-    title: 'Backpacks',
+    title: 'Notebooks',
   },
   {
     id: 6,
     href: '#',
-    title: 'Notebooks',
+    title: 'Backpacks',
   },
 ];
 
@@ -75,7 +75,7 @@ function Header(): ReactElement {
         </nav>
       </div>
       <div className="bg-dark-10">
-        <nav className="max-w-[90rem] mx-auto px-3 py-5" aria-label="Below">
+        <nav className="max-w-[90rem] mx-auto px-3 py-6" aria-label="Below">
           <ul className='inline-flex gap-x-6 text-[15px] leading-[16px] font-normal text-dark-04'>
             {navigation.map( ( item: NavigationProps ) => ( 
               <li key={item.id}>
